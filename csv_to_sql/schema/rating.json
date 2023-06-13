@@ -1,0 +1,24 @@
+{
+  "tableName": "rating",
+  "csvFilePath": "./test_data/ratings.csv",
+  "columns": [
+    {
+      "name": "tconst",
+      "datatype": "VARCHAR(25)",
+      "primaryKey": true,
+      "notNull": true
+    },
+    {
+      "name": "averageRating",
+      "datatype": "FLOAT",
+      "primaryKey": false,
+      "notNull": true
+    },
+    {
+      "name": "numVotes",
+      "datatype": "INT",
+      "primaryKey": false,
+      "notNull": true
+    }
+  ]
+}

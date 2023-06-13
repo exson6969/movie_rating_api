@@ -1,6 +1,5 @@
 {
-  "databaseName": "your_database_name",
-  "tableName": "your_table_name",
+  "tableName": "movie",
   "csvFilePath": "./test_data/movies.csv",
   "columns": [
     {
@@ -19,16 +18,16 @@
       "name": "primaryTitle",
       "datatype": "VARCHAR(200)",
       "primaryKey": false,
-      "notNull": false
+      "notNull": true
     },{
       "name": "runtimeMinutes",
       "datatype": "INT",
-      "primaryKey": true,
+      "primaryKey": false,
       "notNull": true
     },{
       "name": "genres",
       "datatype": "VARCHAR(50)",
-      "primaryKey": true,
+      "primaryKey": false,
       "notNull": true
     }
   ]
