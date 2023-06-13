@@ -1,0 +1,35 @@
+{
+  "databaseName": "your_database_name",
+  "tableName": "your_table_name",
+  "csvFilePath": "./test_data/movies.csv",
+  "columns": [
+    {
+      "name": "tconst",
+      "datatype": "VARCHAR(25)",
+      "primaryKey": true,
+      "notNull": true
+    },
+    {
+      "name": "titleType",
+      "datatype": "VARCHAR(25)",
+      "primaryKey": false,
+      "notNull": true
+    },
+    {
+      "name": "primaryTitle",
+      "datatype": "VARCHAR(200)",
+      "primaryKey": false,
+      "notNull": false
+    },{
+      "name": "runtimeMinutes",
+      "datatype": "INT",
+      "primaryKey": true,
+      "notNull": true
+    },{
+      "name": "genres",
+      "datatype": "VARCHAR(50)",
+      "primaryKey": true,
+      "notNull": true
+    }
+  ]
+}
