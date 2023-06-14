@@ -29,4 +29,4 @@ node .\index.js
 7. Once the process is complete, you will see a success message indicating that the CSV file has been successfully imported into the database.
 
 ## Customize the Schema
-ou want to import data from a different CSV file or modify the table schema, you can customize the `schema/template.json` file. Update the table name, csv file path, column names, data types, and other attributes as per your requirements.
+if you want to import data from a different CSV file or modify the table schema, you can customize the `schema/template.json` file. Update the table name, csv file path, column names, data types, and other attributes as per your requirements.
