@@ -31,3 +31,7 @@ cd .\api
 ```
 node .\index.js
 ```
+
+## Future Work
+
+In order to enhance the performance and improve the response time of the API, future work involve implementing Redis as a caching layer. Redis is an in-memory data store that can significantly speed up data retrieval compared to traditional MySQL database queries. By leveraging Redis, we can reduce the load on the MySQL database and provide faster access to frequently requested data.
